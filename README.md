@@ -1,0 +1,2 @@
+# WGAVAudioPlayerNodePlayer
+AVAudioEngine播放变速不变调,AVAudioPlayerNode获取总时间以及当前播放时间
