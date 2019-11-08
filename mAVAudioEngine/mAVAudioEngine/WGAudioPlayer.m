@@ -283,7 +283,7 @@
 //        [self deleteRecognFile:self.bgmMp3FilePath];
 //    }
 //
-//    if (self.headsetBgmMp3FilePath.length < 0) {
+//    if (self.headsetBgmMp3FilePath.length > 0) {
 //        [self deleteRecognFile:self.headsetBgmMp3FilePath];
 //    }
     
