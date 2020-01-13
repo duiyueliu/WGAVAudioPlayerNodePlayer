@@ -1,7 +1,5 @@
 # WGAVAudioPlayerNodePlayer
-#####(刚开始写,将就看一下,有错误的地方大佬请指教)
-###简书：https://www.jianshu.com/u/7ecd5de1d48b
-###掘金：https://juejin.im/user/5a4ae3526fb9a045211f103d
+#####(有错误的地方请指教)
 ###AVAudioEngine播放变速不变调,AVAudioPlayerNode获取总时间以及当前播放时间
 
 AVAudioPlayer也能通过rate属性控制播放的速率，但是变速后会变调，而AVAudioEngine能做到控制播放变速不变调。
